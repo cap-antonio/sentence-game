@@ -26,7 +26,6 @@ type PropsType = MapStateToPropsType & mapDispatchToPropsType
 
 class SentenceGame extends React.Component<PropsType> {
     render() {
-        const {who, what, when, where} = this.props.sentence
         const {updateWho, updateWhat, updateWhen, updateWhere, 
             publicateStory, updateAuthor, eraseSentence} = this.props
         return (

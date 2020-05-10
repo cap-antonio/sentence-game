@@ -2,6 +2,7 @@
   "name": "sentence-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cap-antonio.github.io/sentence-game",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
@@ -16,6 +17,7 @@
     "@types/react-transition-group": "^4.2.4",
     "antd": "^4.2.0",
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -29,6 +31,8 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
