@@ -30,12 +30,12 @@ const initialState = {
     published: [
         {
             id: 0,
-            text: "John Galt invented the perpetual motion machine some time ago in one book",
+            text: "John Galt invented the perpetual motion machine in one book some time ago",
             author: "Anton Cheremnykh"
         },
         {
             id: 1,
-            text: "Kim Jong-un didn't celebrate his grandfather's Bday last time in Pyongyang",
+            text: "Kim Jong-un didn't celebrate his grandfather's Bday in Pyongyang last time",
             author: "Anton Cheremnykh"
         }
 
@@ -90,8 +90,8 @@ const Reducer = (state = initialState, action: ActionsType): InitialStateType =>
             const { who, what, when, where, author } = state.sentence
             let first = who.toString()
             let second = what.toString()
-            let third = when.toString()
-            let forth = where.toString()
+            let third = where.toString()
+            let forth = when.toString()
             let by = author.toString()
             let text = `${first} ${second} ${third} ${forth}`
             return {

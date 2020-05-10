@@ -115,7 +115,7 @@ const InputForms: React.FC<InputFormsPropsType> = (
                 <div className = "example">
                     <span className = "colored">"</span>
                         {values.who || values.what || values.when || values.where
-                            ? `${values.who} ${values.what} ${values.when} ${values.where}`
+                            ? `${values.who} ${values.what} ${values.where} ${values.when}`
                             : "Ex.:Jack built a house today in the forest"
                         }  
                     <span className = "colored">"</span>
