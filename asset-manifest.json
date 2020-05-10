@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sentence-game/static/css/main.4e763ed5.chunk.css",
+    "main.js": "/sentence-game/static/js/main.31804a85.chunk.js",
+    "main.js.map": "/sentence-game/static/js/main.31804a85.chunk.js.map",
+    "runtime-main.js": "/sentence-game/static/js/runtime-main.edb482be.js",
+    "runtime-main.js.map": "/sentence-game/static/js/runtime-main.edb482be.js.map",
+    "static/js/2.4d001a3d.chunk.js": "/sentence-game/static/js/2.4d001a3d.chunk.js",
+    "static/js/2.4d001a3d.chunk.js.map": "/sentence-game/static/js/2.4d001a3d.chunk.js.map",
+    "index.html": "/sentence-game/index.html",
+    "precache-manifest.f6bd28670bd3b7ef4c802e9235e5ac23.js": "/sentence-game/precache-manifest.f6bd28670bd3b7ef4c802e9235e5ac23.js",
+    "service-worker.js": "/sentence-game/service-worker.js",
+    "static/css/main.4e763ed5.chunk.css.map": "/sentence-game/static/css/main.4e763ed5.chunk.css.map",
+    "static/js/2.4d001a3d.chunk.js.LICENSE.txt": "/sentence-game/static/js/2.4d001a3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edb482be.js",
+    "static/js/2.4d001a3d.chunk.js",
+    "static/css/main.4e763ed5.chunk.css",
+    "static/js/main.31804a85.chunk.js"
+  ]
+}
