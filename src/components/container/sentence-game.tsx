@@ -47,17 +47,6 @@ const mapStateToProps = (state: AppStateType): MapStateToPropsType => {
         published: state.sentencePage.published
     }
 }
-// const mapDispatchToProps = (dispatch) => {
-//     return {
-//         updateWho: (value) => dispatch(updateWho(value)),
-//         updateWhat: (value) => dispatch(updateWhat(value)),
-//         updateWhen: (value) => dispatch(updateWhen(value)),
-//         updateWhere: (value) => dispatch(updateWhere(value)),
-//         updateAuthor: (value) => dispatch(updateAuthor(value)),
-//         publicateStory: () => dispatch(publicateStory()),
-//         removeStory: (value) => dispatch(removeStory(value))
-//     }
-// }
 
 export default connect(mapStateToProps, {updateWho, updateWhat, updateWhen, updateWhere, 
     updateAuthor, eraseSentence, publicateStory, removeStory})(SentenceGame)
