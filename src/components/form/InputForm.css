@@ -1,0 +1,47 @@
+.form-control {
+    width: 30rem;
+    color: white;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-color: white;
+}
+.form-control::placeholder {
+    color: rgb(150, 150, 150);
+}
+.form-control:focus {
+    background: transparent;
+    color: white;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-color: white;
+}
+.example {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    font-size: 15px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+hr {
+    border: .5px solid rgb(23, 162, 184);
+}
+.colored {
+    color: rgb(93, 150, 160);
+}
+.errorMsg {
+    color: #f7dd72;
+    font-size: 14px;
+}
+
+
+

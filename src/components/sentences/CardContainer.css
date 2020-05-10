@@ -1,0 +1,58 @@
+.card {
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    border-color: rgb(23, 162, 184);   
+    max-width: 300px;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.card-footer {
+    background-color: rgb(93, 150, 160);
+    
+}
+.card-footer:last-child {
+    border-radius: 5px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+          transition:         transform .2s ease-in-out;
+}
+.icon:hover, .icon:focus {
+    -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+hr {
+    max-width: 500px;
+}
+
+.item-details {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    padding: 1rem; 
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+/* Add Animation */
+@keyframes animatetop {
+    from {left: -300px; opacity: 0}
+    to {left: 0; opacity: 1}
+}
+
+
+
+  
+
+  
+
+
+
+
