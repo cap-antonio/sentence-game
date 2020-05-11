@@ -1,0 +1,10 @@
+export const UPDATE_WHO = "UPDATE_WHO"
+export const UPDATE_WHAT = "UPDATE_WHAT"
+export const UPDATE_WHEN = "UPDATE_WHEN"
+export const UPDATE_WHERE = "UPDATE_WHERE"
+export const AUTHOR_UPDATE = "AUTHOR_UPDATE"
+export const ERASE_SENTENCE = "ERASE_SENTENCE"
+
+export const PUBLICATE_STORY = "PUBLICATE_STORY"
+export const REMOVE_STORY = "REMOVE_STORY"
+
