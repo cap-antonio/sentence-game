@@ -19,7 +19,7 @@ const Sentences: React.FC<SentencesPropsType> = ({ published, removeStory }) => 
     return (
         <div className="container">
             <hr />
-            <div className="row">
+            <div className="row justify-content-center">
                 {arrayOfSentences}
             </div>
         </div>

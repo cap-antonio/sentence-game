@@ -14,7 +14,7 @@ const OneCard: React.FC<OneCardPropsType> = ({ text, author, removeStory }) => {
         removeStory()
     }
     return (
-        <div className="col-4">
+        <div className="col-md-4 col-sm-6 col-9">
             <div className="card" >
                 <div className="card-body">
                     <p className="card-text">
